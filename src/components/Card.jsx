@@ -46,7 +46,7 @@ const Card = () => {
           <img src={image} alt={name} className='w-40 h-40 rounded-full' />
           <h1 className='text-4xl'>{name}</h1>  
           <h3 className='text-xl text-blue-400 font-semibold'>{job}</h3> 
-          <p className='text-lg text-gray-400 '>{text}</p>
+          <p className='text-lg text-gray-400  text-center'>{text}</p>
           <div className="mt-4"> 
               <button onClick={prevButton} className='mr-6'><FaChevronLeft /></button> 
               <button onClick={nexButton}><FaChevronRight /></button> 
